@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	<PackageId>Doublel.Localization</PackageId>
+	<Version>0.0.1</Version>
+	<Authors>Luka Lukić</Authors>
+	<Company>Olymo</Company>
+	<Description>
+		Localization module for .NET accepting JSON, SQL or Code based localization providers.
+	</Description>
+	<RepositoryUrl>https://github.com/Olymo/Doublel.Localization</RepositoryUrl>
+	<IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
