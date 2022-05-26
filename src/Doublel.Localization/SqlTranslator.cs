@@ -33,6 +33,6 @@ namespace Doublel.Localization
             }
         }
 
-        protected override string GetTranslationValue(string key) => _cachedLocalizationData[key];
+        protected override string GetTranslationValue(string key) => _cachedLocalizationData.ContainsKey(key) ? _cachedLocalizationData[key] : key;
     }
 }
